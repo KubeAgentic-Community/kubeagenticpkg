@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kubeagentic"
-version = "0.2.1"
+version = "0.2.2"
 description = "A Python library for building LangGraph agents from YAML configuration with OpenAI-compatible REST API"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -112,8 +112,10 @@ all = [
 [project.scripts]
 kubeagentic = "kubeagentic.cli:app"
 
-[tool.setuptools]
-packages = ["kubeagentic"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kubeagentic*"]
+exclude = ["tests*", "docs*", "*.egg-info"]
 
 [tool.setuptools.package-data]
 kubeagentic = ["py.typed", "schemas/*.json", "examples/*.yaml"]

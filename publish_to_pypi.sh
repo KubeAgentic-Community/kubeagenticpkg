@@ -15,7 +15,7 @@ NC='\033[0m' # No Color
 
 # Project details
 PROJECT_NAME="kubeagentic"
-VERSION="0.2.1"
+VERSION="0.2.2"
 CREDENTIAL_FILE="requirements/pypi.credential"
 
 # Function to print colored messages

@@ -66,4 +66,4 @@ TOOLS_SUMMARY.md
 # PyPI credentials
 requirements/pypi.credential
 .pypirc
-*.credential 
+*.credential test_venv/
