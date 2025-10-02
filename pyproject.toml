@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kubeagentic"
-version = "0.1.0"
+version = "0.2.1"
 description = "A Python library for building LangGraph agents from YAML configuration with OpenAI-compatible REST API"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -22,7 +22,6 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
-
 dependencies = [
     # Core LangGraph/LangChain
     "langgraph>=0.2.0",
@@ -72,6 +71,12 @@ dependencies = [
     "rich>=13.7.0",
 ]
 
+[project.urls]
+Homepage = "https://kubeagentic.com"
+Documentation = "https://kubeagentic.com/guides"
+Repository = "https://github.com/KubeAgentic-Community/kubeagenticpkg"
+"Bug Tracker" = "https://github.com/KubeAgentic-Community/kubeagenticpkg/issues"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
@@ -106,12 +111,6 @@ all = [
 
 [project.scripts]
 kubeagentic = "kubeagentic.cli:app"
-
-[project.urls]
-Homepage = "https://github.com/yourusername/kubeagentic"
-Documentation = "https://kubeagentic.readthedocs.io"
-Repository = "https://github.com/yourusername/kubeagentic"
-Issues = "https://github.com/yourusername/kubeagentic/issues"
 
 [tool.setuptools]
 packages = ["kubeagentic"]

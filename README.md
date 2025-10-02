@@ -7,6 +7,9 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![PyPI version](https://badge.fury.io/py/kubeagentic.svg)](https://pypi.org/project/kubeagentic/)
+
+[🌐 Website](https://kubeagentic.com) | [📚 Documentation](https://kubeagentic.com/guides) | [🚀 Quick Start](https://kubeagentic.com/guides/kubeagentic-local-testing-guide/) | [💬 Discussions](https://github.com/KubeAgentic-Community/kubeagenticpkg/discussions)
 
 </div>
 
@@ -43,8 +46,8 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install kubeagentic
 
 # Or install from source
-git clone https://github.com/yourusername/kubeagentic.git
-cd kubeagentic
+git clone https://github.com/KubeAgentic-Community/kubeagenticpkg.git
+cd kubeagenticpkg
 pip install -e ".[dev]"
 ```
 
@@ -460,10 +463,11 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 📮 Support
 
-- 📧 Email: support@kubeagentic.io
-- 💬 Discord: [Join our community](https://discord.gg/kubeagentic)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/kubeagentic/issues)
-- 📚 Docs: [Documentation](https://docs.kubeagentic.io)
+- 🌐 Website: [https://kubeagentic.com](https://kubeagentic.com)
+- 📧 Email: contact@kubeagentic.com
+- 🐛 Issues: [GitHub Issues](https://github.com/KubeAgentic-Community/kubeagenticpkg/issues)
+- 📚 Docs: [Documentation](https://kubeagentic.com/guides)
+- 💬 Discussions: [GitHub Discussions](https://github.com/KubeAgentic-Community/kubeagenticpkg/discussions)
 
 ---
 

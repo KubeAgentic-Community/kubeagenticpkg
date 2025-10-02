@@ -61,4 +61,9 @@ tests/
 # Files with sensitive/internal information
 RUN_VLLM_TESTS.md
 TOOLS_CONFIGURATION_GUIDE.md
-TOOLS_SUMMARY.md 
+TOOLS_SUMMARY.md
+
+# PyPI credentials
+requirements/pypi.credential
+.pypirc
+*.credential 

@@ -226,9 +226,10 @@ kubeagentic/
 
 ## Getting Help
 
-- 💬 Join our [Discord](https://discord.gg/kubeagentic)
-- 📧 Email: dev@kubeagentic.io
-- 🐛 [GitHub Issues](https://github.com/yourusername/kubeagentic/issues)
+- 🌐 Website: [https://kubeagentic.com](https://kubeagentic.com)
+- 📧 Email: contact@kubeagentic.com
+- 🐛 [GitHub Issues](https://github.com/KubeAgentic-Community/kubeagenticpkg/issues)
+- 💬 [GitHub Discussions](https://github.com/KubeAgentic-Community/kubeagenticpkg/discussions)
 
 ## Recognition
 
